@@ -1509,14 +1509,14 @@ form label {
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
-  background-image: url(../images/B-W-3.JPG);
+  background-image: url(../images/B-W-3.jpg);
   clear: both;
   padding-top: 7em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-started {
     background-size: cover;
-  background-image: url(../images/B-W-2.JPG);
+  background-image: url(../images/B-W-2.jpg);
     padding-top: 7em;
   }
 }
