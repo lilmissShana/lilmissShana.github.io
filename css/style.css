@@ -1196,11 +1196,20 @@ form label {
   margin: 0 auto;
   position: relative;
   padding: 2em 0em 0em;
+  max-height: 400px;
+  background: white;
+  padding-bottom: 21em;
 
 }
 @media screen and (max-width: 768px) {
   .couple-wrap {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .couple-wrap {
+    width: 100%;
+    padding-bottom: 28em;
   }
 }
 
@@ -1284,10 +1293,12 @@ form label {
 .couple-half .desc-groom {
   padding-right: 180px;
   text-align: right;
+  padding-left: 80px;
 }
 .couple-half .desc-bride {
   padding-left: 180px;
   text-align: left;
+  padding-right: 80px;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
@@ -1297,10 +1308,14 @@ form label {
   .couple-half .desc-groom {
     padding-right: 0;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .couple-half .desc-bride {
     padding-left: 0;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
